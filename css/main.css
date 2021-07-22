@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Unicorn Magic";
+    src: url("../fuentes/Unicorn Magic.ttf") format("ttf");
+}
+
+body{
+    font-family: 'Unicorn Magic';
+    font-size: 20px;
+}
+
+#header_inicio{
+    background-image: url("../imagenes/imagen\ de\ titulo.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #8F1D44;
+}
+
+#header_escuelas{
+    background-image: url("../imagenes/titulo\ escuelas.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #1B7A6B;
+}
+#header_Bella_Vista{
+    background-image: url("../imagenes/titulo\ escuelas.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #1B7A6B;
+}
+#header_Ramon_Bedoya{
+    background-image: url("../imagenes/titulo\ escuelas.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #1B7A6B;
+}
+
+
+#header_catecismo{
+    background-image: url("../imagenes/tirulo\ catequesis.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #974FC3;
+}
+#header_3{
+    background-image: url("../imagenes/tirulo\ catequesis.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #A55CD7;
+}
+#header_5{
+    background-image: url("../imagenes/tirulo\ catequesis.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #A55CD7;
+}
+#header_preguntas_frecuentes{
+    background-image: url("../imagenes/titulo\ preguntas\ freceuntes.png");
+    background-repeat: no-repeat;
+    background-size: 150% 80%;
+    height: 100vh;
+    color: #D8D44C;
+}
+
+
+#menu{
+    padding: 50px 0;
+}
+
+header #menu ul{
+    padding: 0%;
+    margin: 0%;
+}
+
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+header #menu ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+header #menu ul li a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+
+#logo{
+    margin-left: 100px;
+    margin-right: 40%;
+}
+
+#main-container header main{
+    margin: 0;
+    width: 1400px;
+}
+#main-container header main div{
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#main-container header main .text h1{
+    font-size: 80px;
+}
+
+button{
+    background-color: #24d9e6;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px 0;
+}
+button:hover{
+    background-color:thistle;
+}
+#main-container header main .image{
+    text-align: right;
+    width: 700px;
+}
+
+.layout{
+    width: 1280px;
+    margin: 250px auto;
+}
+.layout di{
+    display: inline-block;
+    vertical-align: middle;
+}
+.layout h3{
+    font-size: 48px;
+    padding: 25px 0;
+}
+.layout p{
+    padding: 25px;
+    line-height: 32px;
+}
+.layout-left .text{
+    width: 500px;
+}
+.layout-left .image{
+    width: 770;
+    text-align: right;
+}
+.layout-right .text{
+    width: 500px;
+}
+.layout-right .image{
+    width: 770;
+    text-align: center;
+}
+
+#footer_inicio{
+    background-color: #F3C0E3;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+
+#footer_escuelas{
+    background-color: #D0FFFE;
+    padding: 3px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+#footer_Bella_Vista{
+    background-color: #C0FFFE;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+#footer_Ramon_Bedoya{
+    background-color: #C0F3EB;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+#footer_catecismo{
+    background-color: #DDC1FF;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+#footer_3{
+    background-color: #E2C0FF;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+#footer_5{
+    background-color: #E2C0FF;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+#footer_preguntas_frecuentes{
+    background-color: #F8EFC0;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Unicorn Scribbles';
+    font-size: 40px;
+}
+
+#vinculo-catecismo{
+    color: #5C8743;
+    text-decoration: none;
+}
