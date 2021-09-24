@@ -10,13 +10,13 @@
 
 body{
     font-family: 'Unicorn Magic';
-    font-size: 20px;
+    font-size: 17px;
 }
 
 #header_inicio{
     background-image: url("../imagenes/imagen\ de\ titulo.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #8F1D44;
 }
@@ -24,56 +24,62 @@ body{
 #header_escuelas{
     background-image: url("../imagenes/titulo\ escuelas.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #1B7A6B;
 }
 #header_Bella_Vista{
     background-image: url("../imagenes/titulo\ escuelas.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #1B7A6B;
 }
 #header_Ramon_Bedoya{
     background-image: url("../imagenes/titulo\ escuelas.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #1B7A6B;
 }
 
 
 #header_catecismo{
-    background-image: url("../imagenes/tirulo\ catequesis.png");
+    background-image: url("../imagenes/titulo\ catequesis.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #974FC3;
 }
 #header_3{
-    background-image: url("../imagenes/tirulo\ catequesis.png");
+    background-image: url("../imagenes/titulo\ catequesis.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #A55CD7;
 }
 #header_5{
-    background-image: url("../imagenes/tirulo\ catequesis.png");
+    background-image: url("../imagenes/titulo\ catequesis.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #A55CD7;
 }
 #header_preguntas_frecuentes{
     background-image: url("../imagenes/titulo\ preguntas\ freceuntes.png");
     background-repeat: no-repeat;
-    background-size: 150% 80%;
+    background-size: 150% 50%;
     height: 100vh;
     color: #D8D44C;
 }
-
-
+#header_preguntas{
+    font-size: x-large;
+    font-family: 'Unicorn Scribbles';
+    src: url("../fuentes/Unicorn\ Scribbles.otf"); 
+    text-align:left;
+    padding-left: 20mm;
+    padding-bottom: 10mm;
+}
 #menu{
     padding: 50px 0;
 }
@@ -134,12 +140,23 @@ button:hover{
     text-align: right;
     width: 700px;
 }
+#estructuras{
+    padding-left: 10mm;
+}
+#pregunta_n{
+    padding-top: 10mm;
+}
+.rosebutter{
+    margin-left: 10px;
+    margin-right: 4px;
+    image-rendering: right;
+}
 
 .layout{
     width: 1280px;
     margin: 250px auto;
 }
-.layout di{
+.layout #id{
     display: inline-block;
     vertical-align: middle;
 }
@@ -155,15 +172,16 @@ button:hover{
     width: 500px;
 }
 .layout-left .image{
-    width: 770;
+    width: 700;
     text-align: right;
 }
 .layout-right .text{
     width: 500px;
 }
 .layout-right .image{
-    width: 770;
-    text-align: center;
+    width: 700;
+    text-align: right;
+    padding: 30px;
 }
 
 #footer_inicio{
@@ -176,7 +194,7 @@ button:hover{
 }
 
 #footer_escuelas{
-    background-color: #D0FFFE;
+    background-color: #4DDDD0;
     padding: 3px 10px;
     color: white;
     text-align: center;
@@ -184,7 +202,7 @@ button:hover{
     font-size: 40px;
 }
 #footer_Bella_Vista{
-    background-color: #C0FFFE;
+    background-color: #4DDDD0;
     padding: 30px 10px;
     color: white;
     text-align: center;
@@ -192,7 +210,7 @@ button:hover{
     font-size: 40px;
 }
 #footer_Ramon_Bedoya{
-    background-color: #C0F3EB;
+    background-color: #4DDDD0;
     padding: 30px 10px;
     color: white;
     text-align: center;
@@ -236,3 +254,10 @@ button:hover{
     color: #5C8743;
     text-decoration: none;
 }
+
+.pregunta_frecuente{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px 30px;
+    color: #76377D;
+}
+
